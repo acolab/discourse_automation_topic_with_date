@@ -1,0 +1,11 @@
+fr:
+  discourse_automation:
+    scriptables:
+      topic_with_date:
+        title: Sujet avec date
+        description: Creer un sujet avec un placeholder de date calcule et support optionnel du mode wiki
+        doc: >
+          Cree un nouveau sujet en tant qu'utilisateur systeme. Le placeholder
+          {{date}} dans le titre et le corps est remplace par une date calculee
+          (aujourd'hui + decalage). Le premier message peut optionnellement
+          etre transforme en wiki.
