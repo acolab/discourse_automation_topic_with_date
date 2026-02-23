@@ -16,7 +16,7 @@ fr:
               label: Transformer le premier message en wiki
             date_offset:
               label: Décalage de date (jours)
-              description: Nombre de jours à ajouter à aujourd'hui pour le placeholder {{date}}
+              description: Nombre de jours à ajouter à aujourd'hui pour le placeholder date
             date_format:
               label: Format de date
               description: "Format strftime (par défaut : %d/%m/%Y)"
