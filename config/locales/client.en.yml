@@ -1,0 +1,22 @@
+en:
+  js:
+    discourse_automation:
+      scriptables:
+        topic_with_date:
+          fields:
+            title:
+              label: Topic title
+            body:
+              label: Topic body
+            category:
+              label: Topic category
+            tags:
+              label: Topic tags
+            wiki:
+              label: Make first post a wiki
+            date_offset:
+              label: Date offset (days)
+              description: Number of days to add to today for the {{date}} placeholder
+            date_format:
+              label: Date format
+              description: "strftime format string (default: %d/%m/%Y)"
