@@ -1,0 +1,10 @@
+en:
+  discourse_automation:
+    scriptables:
+      topic_with_date:
+        title: Topic with Date
+        description: Create a topic with a computed date placeholder and optional wiki support
+        doc: >
+          Creates a new topic as the system user. The {{date}} placeholder in
+          the title and body is replaced with a computed date (today + offset).
+          The first post can optionally be made into a wiki.
