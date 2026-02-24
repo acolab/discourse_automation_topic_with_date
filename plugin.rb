@@ -4,7 +4,7 @@
 # about: Adds a "Topic with Date" scriptable to discourse-automation. Creates a topic with a computed {{date}} placeholder and optional wiki support.
 # version: 0.1
 # authors: ACoLab
-# url: https://music.music/acolabot
+# url: https://github.com/acolab/discourse_automation_topic_with_date
 # required_version: 2.7.0
 
 after_initialize do
